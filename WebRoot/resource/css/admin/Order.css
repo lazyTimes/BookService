@@ -1,0 +1,103 @@
+@CHARSET "UTF-8";
+/**最外层订单盒子*/
+.orderBox{
+	position:relative;
+	left:200px;
+	width:80%;
+	height:auto;
+	float:left;
+}
+/*提示信息*/
+.Userinfo{
+	width:100%;
+	font-weight:bold;
+	font-size:16px;
+	display: block;
+	float:left;
+	position: relative;
+	top:0;
+	left:0;
+}
+.orderBox .naviimage{
+	width:100%;
+	height: auto;
+	float:left;
+	position: relative;
+	top:0;
+	left:0;
+}
+.orderBox .naviimage img{
+	margin-bottom:10px;
+	width:60%;
+	height: auto;
+	float:left;
+}
+
+
+/**购物车订单条目信息*/
+.Order-item{
+	float:left;
+}
+.Order-item table{
+	float:left;
+	text-align: left;
+}
+.Order-item table tr td{
+	width:120px;
+	padding:6px;
+	height:auto;
+	word-break : break-all;
+	
+}
+.Order-item table tr th{
+	border-bottom: 5px solid blue;
+	opacity: 0.5;
+	padding:5px;
+	background-color: #cccccc;
+	color:black;
+	height:30px;
+}
+
+
+/**收货人信息*/
+.receiveAddress{
+	display: block;
+	margin:5px;
+	
+	width:60%;
+}
+
+/**订单盒子*/
+.order-address{
+	width:100%;
+	float:left;
+}
+
+/**支付方式*/
+.paySelcter{
+	width:60%;
+	height:300px;
+	float:left;
+	margin:10px;
+}
+
+/*银行的图片样式*/
+.paySelcter img{
+	width:150px;
+	height: 40px;
+	vertical-align: middle;
+	
+}
+
+
+
+
+/*提交按钮样式*/
+.subOrder{
+	float:left;
+	wdith:40%;
+	height:auto;
+	vertical-align: bottom;
+	background-color:red;
+}
+

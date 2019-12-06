@@ -1,0 +1,256 @@
+@CHARSET "UTF-8";
+/*
+	网页商城首页的CSS
+	包含了上半部分，下半部分，
+	以及上半部分的新书上架等具体内容的样式
+	包含了下半部分公告栏的CSS样式
+*/
+
+/*上部分大盒子的样式*/
+.Outer-top{
+	width:80%;
+	margin-top:20px;
+	
+	height:400px;
+	position: relative;
+	left:140px;
+	top:0;
+}
+/*图片轮播实现*/
+.top-left{
+	float:left;
+	
+	width:50%;
+	height:100%;
+}
+.top-right{
+	float:left;
+	
+	width:50%;
+	height:100%;
+	z-index:5;
+}
+
+/*控制整个自动轮播位置*/
+.top-left .top-left-box{
+	width: 600px;
+    height: 400px;
+    
+}
+
+.autoimgbox img{
+	width:500px;
+	hieght:300px;
+	position:absolute;
+	left: 85px;
+	top: 40px;
+	
+}
+
+.lablepoint ul{
+	position: absolute;
+	width: 286px;
+	height:10px;
+	top: 360px;
+	left: 200px;
+    z-index: 5;
+}
+
+/*左半边箭头的样式*/
+#toleft{
+	z-index: 99;
+	width:50px;
+	height:300px;
+	position: absolute;
+	left:70px;
+	line-height:300px;
+	top:40px;
+	display:none;
+	font-size:50px;
+	text-align: center;
+	color:white;
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+/*右半边箭头的样式*/
+#toright{
+	z-index: 99;
+	width:50px;
+	height:300px;
+	position: absolute;
+	left:540px;
+	display:none;
+	line-height:300px;
+	top:40px;
+	font-size:50px;
+	text-align: center;
+	color:white;
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+
+.lablepoint ul li{
+	text-align: center;
+    float: left;
+    margin: 0 20px 0 0;
+    width: 20px;
+    height: 10px;
+    cursor: pointer;
+    background-color: black;
+    list-style: none;
+    opacity: 0.4;
+}
+/***********************/
+
+/*新书上架整个盒子的样式*/
+.top-right .top-right-top{
+	float:left;
+	width:100%;
+	height:80%;
+	
+}
+/*新书上架左边的文字部分*/
+.top-right-top-left{
+	margin-left: 10px;
+	padding-left: 10px;
+	margin-top: 10px;
+	width:50%;
+	height:80%;
+	float: left;
+
+}
+/*新书上架的右边的图片部分*/
+.top-right-top-right{
+	float:left;
+}
+
+
+
+
+/*盒子底部动态导航栏*/
+.top-right-top-bottom{
+	width:450px; 
+	height: 30px; 
+	float: left;
+}
+
+/**新书上架导航盒子*/
+.top-right-top-bottom .navibox{
+	width:70px;
+	height:30px;
+	margin:0 15px 0 0;
+	float: left;
+	cursor: pointer;
+	overflow: hidden;
+	background-color:2c7c7c;
+	color:white;
+	font-weight: bold;
+	padding:5px 15px 5px 0;
+
+}
+/********************************/
+.top-right-top-bottom .navibox a{
+	font-weight: bold;
+	color:white;
+}
+
+/**选择商品的样式定义*/
+.top-right-top-bottom .navibox a:HOVER{
+	background-color: red;
+}
+
+/*对于lable样式的定义*/
+.top-right-top-bottom label[name=lablenumber]{
+	font-size:30px;
+	color:green; 
+	opcity:0.6;
+	float:left;
+	
+}
+/********************************/
+/*对于lable样式的定义*/
+.top-right-top-bottom label[name=naviboxnumber]{
+	color:white;
+	text-align: center;
+	float:left;
+	padding:5px 8px 5px 8px;
+	border-right: 1px solid white;
+	margin-right: 3px;
+}
+
+/*下半部分图片放大镜区域*/
+.top-right .top-right-bottom{
+	float:left;
+	
+	width:100%;
+	height:30%;
+}
+
+/*图片包装盒的位置*/
+.top-right-bottom .image-box{
+	float:right;
+	
+}
+/*对于放大镜图片的样式设定*/
+.top-right-bottom .image-box img{
+	float:right;
+	width:70px;
+	height:70px;
+	padding:15px;
+}
+
+/*******************************************************/
+
+
+/**公告板以及商品热卖*/
+.Outer-bottom{
+	margin-top:40px;
+	width:80%;
+	position: relative;
+	left:180px;
+	top:0;
+	
+	height:200px;
+}
+
+/**左半边公告栏*/
+.bottom-left{
+	padding-top:10px;
+	padding-left:10px;
+	float:left;
+	background-color:#fcfded;
+	width:45%;
+	height:100%;
+}
+
+/*右边本周热卖*/
+.bottom-right{
+	float:left;
+	background-color:#fcfded;
+	width:50%;
+	height:100%;
+}
+
+.bottom-right .bottom-right-left{
+	float:left;
+	width:60%;
+	height:100%;
+	padding-top:10px;
+	
+}
+
+.bottom-right .bottom-right-right{
+	float:right;
+	width:40%;
+	height:100%;
+}
+
+/*对于公告栏的样式设定*/
+#Notice{
+	width:500px;
+	
+}
+
+

@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+/**
+	包含了全部分类的Css样式,主要分为三个部分
+	1.囊括全部内容的大盒子
+	2.左边商品分类列表
+	3.右边商品详细展示
+*/
+
+.Outer-box{
+	width:80%;
+	height: 1500px;
+	top:0;
+	position:relative;
+	left:10%;
+	margin-top: 30px;
+	float:left;
+}
+
+
+.right{
+	width:75%;
+	height:100%;
+	border:1px solid #c3c3c3;
+	float:left;
+	padding-left: 20px;
+	position: relative;
+	left:0;
+	top:0;
+}
+
+.right .right-top{
+	border-bottom: 1px solid #c3c3c3;
+	border-width: 80%;
+	width:80%;
+	padding:18px;
+	font-weight: bold;
+	font-size:20px;
+	height:30px;
+	float:left;
+}
+
+.right .right-center{
+	padding:20px;
+	border-bottom: 1px solid #c3c3c3;
+	border-width: 80%;
+	width:80%;
+	height:30px;
+	float:left;
+}
+
+
+/*顶部主要分类的展示 */
+.right .right-center-public{
+	float:left;
+	width:80%;
+	height:40px;
+	padding: 10px;
+}
+
+
+.right-center-public ol li{
+	list-style-type: none;
+	float:left;
+	padding:0 10px 0 15px;
+	border-right: 1px dashed black;
+}
+
+/*中间图片的栏位*/
+.right .right-center-image{
+	float:left;
+	height:30px;
+	width:80%;
+	padding: 10px;
+}
+
+/**************************/
+
+/*右边商品详情展示*/
+.right .right-probox{
+	float:left;
+	height: 80%;
+	width:85%;
+	margin:15px;
+}
+
+.right .probox{
+	text-align:center;
+	width:150px;
+	height:200px;
+	float: left;
+	margin:30px;
+	padding-bottom: 20px;
+}
+
+.right .probox img{
+	width:150px;
+	height:200px;
+}
+
+.probox a{
+	
+}

@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+.Outer-box{
+	float: left;
+	
+	position: relative;
+	left:220px;
+	top:10px;
+	width:70%;
+	height:auto;
+	
+}
+/*两张图片的样式*/
+.inner-image img{
+	width:80%;
+	height:auto;
+}
+
+.inner-image2 img{
+	width:80%;
+	height:auto;
+}
+/**表格的样式*/
+.inner-table table{
+	width:100%;
+}
+.inner-table table th{
+	background-color: gray;
+}
+.inner-table table tr td{
+	text-align: center;
+	padding:5px;
+}
+
+/**覆盖删除对话框的提示信息样式*/
+/**覆盖对话框样式*/
+.ui-widget-header{
+	background-color:red;
+	color:white;
+	font-weight: bold;
+}

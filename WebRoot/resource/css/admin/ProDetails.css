@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+
+/**
+	定义了商品详情页面右边商品页面的样式
+	
+*/
+.Outer-box{
+	width:80%;
+	height: 700px;
+	top:0;
+	position:relative;
+	left:10%;
+	margin-top: 30px;
+	float:left;
+}
+.right{
+	width:75%;
+	height:100%;
+	border:1px solid #c3c3c3;
+	float:left;
+	position: relative;
+	left:0;
+	top:0;
+}
+
+.right .right-top{
+	border-width: 80%;
+	width:100%;
+	height:30px;
+	float:left;
+	position: relative;
+	top:0;
+	left: 0;
+}
+
+.right-bottom{
+	float:left;
+	position: relative;
+	top:150px;
+	left: 0;
+	width:100%;
+	height: 50%;
+	
+}
+
+.bottom-left{
+	width:50%;
+	height:100%;
+	float:left;
+	position: relative;
+	left:100px;
+	top:0;
+	
+}
+
+.bottom-right{
+	float:left;
+	width:50%;
+	height:100%;	
+	
+}
+
+.bottom-right table{
+	text-align: left;
+	float: left;
+} 
+
+.bottom-right table tr td{
+	padding: 7px;
+	
+	
+}
+
+.bottom-bottom{
+	text-align:left;
+	position: relative;
+	top:20px;
+	left:110px;
+}

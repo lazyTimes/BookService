@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+/*商城内部的底部样式*/
+.foot{
+	position: fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:75px;
+	z-index:9999;
+}
+
+/*底部上半部分样式*/
+.foot .foot-top{
+	background: #efeedc;
+	width:inherit;
+	height:30px;
+	text-align: center;
+}
+
+/*底部图片的样式*/
+#bottomimg{
+	position:relative;
+	left:550px;
+	bottom:8px;
+	width:130px;
+	height:55px;
+	
+}
+.foot-top p{
+	font-weight: bold;
+}
+
+/**底部下半部分样式*/
+.foot .foot-bottom{
+	background-color:#f7f7f7;
+	width:inherit;
+	height:32px;
+	text-align: center;
+}
