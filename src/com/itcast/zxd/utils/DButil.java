@@ -144,6 +144,7 @@ public class DButil {
 			}
 			
 		} catch (SQLException e) {
+			e.printStackTrace();
 			// TODO Auto-generated catch block
 			System.out.println("¸üÐÂÊ§°Ü");
 			flag = false;
